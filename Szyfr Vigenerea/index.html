@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szyfr Vigenerea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Encrypt">
+        <form>
+            Wprowadź tekst do zaszyfrowania: <br>
+            <input type="text" id="textEncrypt"><br><br>
+            Słowo szyfrujące:<br>
+            <input type="text" id="shiftEncrypt"><br><br>
+            <input type="button" value="SZYFRUJ" id="btnEncrypt"><br><br>
+            Zaszyfrowany tekst:<br>
+            <input type="text" id="resultEncrypt">
+        </form>
+    </div>
+
+    <div class="Decrypt">
+        <form>
+            Wprowadź tekst do odszyfrowania:<br>
+            <input type="text" id="textDecrypt"><br><br>
+            Słowo deszyfrujące:<br>
+            <input type="text" id="shiftDecrypt"><br><br>
+            <input type="button" value="DESZYFRUJ" id="btnDecrypt"><br><br>
+            Odszyfrowany tekst:<br>
+            <input type="text" id="resultDecrypt">
+        </form>
+    </div>
+</body>
+
+<script src="Encrypt.js" defer></script>
+<script src="Decrypt.js" defer></script>
+</html>

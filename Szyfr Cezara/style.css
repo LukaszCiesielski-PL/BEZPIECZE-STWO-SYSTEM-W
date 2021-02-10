@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+    justify-content: center;
+    text-align: center;  
+    background-color: whitesmoke;
+}
+
+.Encrypt{
+    height: 900px;
+    
+}
+.Decrypt{
+    height: 900px;
+    
+}
+
+form{
+    margin-top: 200px;
+    padding-top: 100px;
+    height: 400px;
+    background-color: white;
+    border: black solid 2px;
+    
+}
+
+#textEncrypt, #textDecrypt{
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+#shiftEncrypt, #shiftDecrypt{
+    text-align: center;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#resultEncrypt, #resultDecrypt{
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
